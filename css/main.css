@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  background-color: #effafa;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site_header {
+  height: 156px;
+  background-repeat: no-repeat;
+  background-image: url(../img/logo.svg);
+  background-size: cover;
+  background-color: #4ca5a5;
+}
+
+
+
+/*
+.job_list {
+  padding-top: 76px;
+}*/
+
+.sub_job_list {
+  display: inline-block;
+}
+
+.job_list_item {
+  padding: 32px 40px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.299);
+  margin-bottom: 20px;
+}
+
+.job_list_cap:nth-child(1) {
+  color: #5ca5a5;
+  padding-left: 0;
+}
+
+.job_list_cap {
+  display: inline-block;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  padding: 6px 8px;
+  border-radius: 12px;
+}
+
+.job_list_cap:nth-child(2) {
+  background-color: #5ca5a5;
+}
+.job_list_cap:nth-child(3) {
+  background-color: #2b3939;
+}
+
+.jo_list_title {
+  color: #2b3939;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.job_list_info {
+  color: #7c8f8f;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.115px;
+}
+
+.job_list_item {
+  border-left: 5px solid #5ca5a5;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.job_list_block {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.job_main_btn {
+  margin-left: 253px;
+  padding: 60px 16px;
+}
